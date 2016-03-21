@@ -5,7 +5,10 @@ Use the arrows key to swap this tile with its neighbors
 """
 
 import poc_fifteen_gui
-LR_DICT = {-1: "l", 1: "r"}
+LR_DICT = {
+           -1: "l",
+           1: "r"
+          }
 
 class Puzzle:
     """
